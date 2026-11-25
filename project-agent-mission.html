@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agent Mission — Vitalii Yavorskyi</title>
+  <link rel="icon" href="image/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/project.css" />
+</head>
+<body>
+  <main class="project-content">
+    <header class="project-header">
+      <div>
+        <div class="project-header-meta">Unity · 3D Action Shooter · 1M+ Downloads · Utin Computers</div>
+        <h1>Agent Mission</h1>
+      </div>
+      <div class="header-actions">
+        <a href="index.html#projects" class="btn">← All Projects</a>
+        <a href="https://play.google.com/store/apps/details?id=com.utincomputer.agenthitman" target="_blank" rel="noopener" class="btn btn-primary">Google Play</a>
+      </div>
+    </header>
+
+    <section class="project-gallery">
+      <div class="slider portrait">
+        <img src="image/agent-mission-1.webp" alt="Agent Mission Screenshot 1" class="slide active" />
+        <img src="image/agent-mission-2.webp" alt="Agent Mission Screenshot 2" class="slide" />
+        <img src="image/agent-mission-3.webp" alt="Agent Mission Screenshot 3" class="slide" />
+      </div>
+      <div class="slider-controls">
+        <button onclick="prevSlide()" aria-label="Previous slide">&#10094;</button>
+        <button onclick="nextSlide()" aria-label="Next slide">&#10095;</button>
+      </div>
+      <div class="slider-dots"></div>
+    </section>
+
+    <div class="project-grid">
+      <article class="info-card">
+        <h2>About the Game</h2>
+        <p>
+          Hit mobile 3D tactical action shooter with over 1,000,000+ downloads on Google Play,
+          maintained and updated at Utin Computers.
+        </p>
+      </article>
+
+      <article class="info-card">
+        <h2>My Role (Live-Ops &amp; SDK Integration)</h2>
+        <p>
+          Handled live-ops maintenance on the production codebase: migrated the Unity version,
+          resolved multi-SDK compatibility conflicts, updated ad/analytics integrations,
+          and fixed economy and UI bugs.
+        </p>
+      </article>
+
+      <article class="info-card full">
+        <h2>Contributions &amp; Technologies</h2>
+        <ul>
+          <li><strong>SDK &amp; Engine Migration:</strong> Updated Unity version and resolved compatibility issues across AppLovin, Adjust, Firebase, Facebook SDK, GameAnalytics, and EDM4U.</li>
+          <li><strong>UI &amp; Economy Bug Fixes:</strong> Fixed double currency deduction on weapon upgrades, offer/UI display bugs, and interstitial/banner ad flows.</li>
+          <li><strong>Build Configuration:</strong> Maintained Android build setup and SRDebugger configuration in <code>Build.cs</code>.</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="project-cta">
+      <a href="https://play.google.com/store/apps/details?id=com.utincomputer.agenthitman" target="_blank" rel="noopener" class="btn btn-primary">View on Google Play</a>
+      <a href="index.html#projects" class="btn">Back to Portfolio</a>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+

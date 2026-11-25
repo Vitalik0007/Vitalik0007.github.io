@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Criminal City: Traffic Racer — Vitalii Yavorskyi</title>
+  <link rel="icon" href="image/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/project.css" />
+</head>
+
+<body>
+  <main class="project-content">
+    <header class="project-header">
+      <div>
+        <div class="project-header-meta">Unity · 3D Mobile Racing · Utin Computers</div>
+        <h1>Criminal City: Traffic Racer</h1>
+      </div>
+      <div class="header-actions">
+        <a href="index.html#projects" class="btn">← All Projects</a>
+        <a href="https://play.google.com/store/apps/details?id=com.xp101.traffic.racer.race.master" target="_blank"
+          rel="noopener" class="btn btn-primary">Google Play</a>
+      </div>
+    </header>
+
+    <section class="project-gallery">
+      <div class="slider portrait">
+        <img src="image/criminal-city-1.webp" alt="Criminal City: Traffic Racer Screenshot 1" class="slide active" />
+        <img src="image/criminal-city-2.webp" alt="Criminal City: Traffic Racer Screenshot 2" class="slide" />
+        <img src="image/criminal-city-3.webp" alt="Criminal City: Traffic Racer Screenshot 3" class="slide" />
+      </div>
+      <div class="slider-controls">
+        <button onclick="prevSlide()" aria-label="Previous slide">&#10094;</button>
+        <button onclick="nextSlide()" aria-label="Next slide">&#10095;</button>
+      </div>
+      <div class="slider-dots"></div>
+    </section>
+
+    <div class="project-grid">
+      <article class="info-card">
+        <h2>About the Game</h2>
+        <p>
+          High-speed 3D mobile traffic racing game developed at Utin Computers.
+          Players weave through dense highway traffic, dodge roadblocks, outrun rivals,
+          and trigger nitro boosts in an arcade-action urban setting.
+        </p>
+      </article>
+
+      <article class="info-card">
+        <h2>My Role (Utin Computers)</h2>
+        <p>
+          Contributed across core 3D gameplay systems: vehicle handling and physics tuning,
+          high-speed motion blur &amp; rendering effects, New Input System integration,
+          mission/level flow, UI screens, and gameplay feature implementation.
+        </p>
+      </article>
+
+      <article class="info-card full">
+        <h2>Technologies &amp; Systems</h2>
+        <ul>
+          <li><strong>Unity &amp; URP:</strong> 3D mobile rendering pipeline, shaders, and high-speed motion blur
+            effects.</li>
+          <li><strong>Vehicle Physics &amp; Controls:</strong> Car handling, NOS boost mechanics, and responsive New
+            Input System controls.</li>
+          <li><strong>Gameplay Systems:</strong> Traffic, rivals, roadblocks, mission briefing, and level progression
+            managers.</li>
+          <li><strong>ScriptableObjects &amp; UI:</strong> Data-driven vehicle/level configs, loading screens, and
+            mobile HUD.</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="project-cta">
+      <a href="https://play.google.com/store/apps/details?id=com.xp101.traffic.racer.race.master" target="_blank"
+        rel="noopener" class="btn btn-primary">View on Google Play</a>
+      <a href="index.html#projects" class="btn">Back to Portfolio</a>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

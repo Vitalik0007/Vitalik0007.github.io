@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kids Project — Vitalii Yavorskyi</title>
+  <link rel="icon" href="image/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/project.css" />
+</head>
+<body>
+  <main class="project-content">
+    <header class="project-header">
+      <div>
+        <div class="project-header-meta">Unity · Mobile · Commercial Client Project</div>
+        <h1>Kids Project</h1>
+      </div>
+      <div class="header-actions">
+        <a href="index.html#projects" class="btn">← All Projects</a>
+        <a href="https://github.com/Vitalik0007/KidsProject" target="_blank" rel="noopener" class="btn btn-primary">View on GitHub</a>
+      </div>
+    </header>
+
+    <section class="project-gallery">
+      <div class="slider">
+        <img src="image/kidsGame.jpg" alt="Kids Project Screenshot 1" class="slide active" />
+        <img src="image/kidsGame2.jpg" alt="Kids Project Screenshot 2" class="slide" />
+        <img src="image/kidsGame3.jpg" alt="Kids Project Screenshot 3" class="slide" />
+        <img src="image/kidsGame4.jpg" alt="Kids Project Screenshot 4" class="slide" />
+        <img src="image/kidsGame5.jpg" alt="Kids Project Screenshot 5" class="slide" />
+      </div>
+      <div class="slider-controls">
+        <button onclick="prevSlide()" aria-label="Previous slide">&#10094;</button>
+        <button onclick="nextSlide()" aria-label="Next slide">&#10095;</button>
+      </div>
+      <div class="slider-dots"></div>
+    </section>
+
+    <div class="project-grid">
+      <article class="info-card">
+        <h2>About the Game</h2>
+        <p>
+          Designed specifically for young children to support early cognitive development through fun and interactive activities.
+          Features a collection of mini-games focused on color recognition, shape matching, memory, and logical thinking.
+        </p>
+      </article>
+
+      <article class="info-card">
+        <h2>My Role</h2>
+        <p>
+          As the sole Unity developer on this commercial project, I implemented the full gameplay logic, built multiple mini-games from scratch,
+          designed a reusable ScriptableObject architecture, integrated DOTween UI animations and Spine hints, and collaborated closely with the artist.
+        </p>
+      </article>
+
+      <article class="info-card full">
+        <h2>Technologies Used</h2>
+        <ul>
+          <li><strong>Unity (C#):</strong> Core game development engine and modular mini-game logic.</li>
+          <li><strong>ScriptableObjects:</strong> Data-driven configuration for mini-game levels and assets.</li>
+          <li><strong>DOTween:</strong> Smooth UI and gameplay feedback animations.</li>
+          <li><strong>Spine Unity Runtime:</strong> Integration of animated character hints and interactive elements.</li>
+          <li><strong>Unity UI (UGUI):</strong> Responsive layout adapted for mobile touchscreens.</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="project-cta">
+      <a href="https://github.com/Vitalik0007/KidsProject" target="_blank" rel="noopener" class="btn btn-primary">See Source Code on GitHub</a>
+      <a href="index.html#projects" class="btn">Back to Portfolio</a>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+

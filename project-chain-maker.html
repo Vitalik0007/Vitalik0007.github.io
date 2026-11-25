@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chain Maker RPG — Vitalii Yavorskyi</title>
+  <link rel="icon" href="image/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/project.css" />
+</head>
+<body>
+  <main class="project-content">
+    <header class="project-header">
+      <div>
+        <div class="project-header-meta">Unity · Hybrid Slot-RPG · Utin Computers</div>
+        <h1>Chain Maker RPG</h1>
+      </div>
+      <div class="header-actions">
+        <a href="index.html#projects" class="btn">← All Projects</a>
+        <a href="https://play.google.com/store/apps/details?id=com.IGORI.ChainMakerRPG" target="_blank" rel="noopener" class="btn btn-primary">Google Play</a>
+      </div>
+    </header>
+
+    <section class="project-gallery">
+      <div class="slider portrait">
+        <img src="image/chain-maker-1.webp" alt="Chain Maker RPG Screenshot 1" class="slide active" />
+        <img src="image/chain-maker-2.webp" alt="Chain Maker RPG Screenshot 2" class="slide" />
+        <img src="image/chain-maker-3.webp" alt="Chain Maker RPG Screenshot 3" class="slide" />
+      </div>
+      <div class="slider-controls">
+        <button onclick="prevSlide()" aria-label="Previous slide">&#10094;</button>
+        <button onclick="nextSlide()" aria-label="Next slide">&#10095;</button>
+      </div>
+      <div class="slider-dots"></div>
+    </section>
+
+    <div class="project-grid">
+      <article class="info-card">
+        <h2>About the Game</h2>
+        <p>
+          Hybrid mobile RPG combining slot-machine combat mechanics with unit upgrades,
+          wave-based battles, boss encounters, and progression loops.
+        </p>
+      </article>
+
+      <article class="info-card">
+        <h2>My Role (Unity Developer)</h2>
+        <p>
+          Primary Unity developer on the project at Utin Computers: built and refined core progression systems,
+          unit upgrades, boss &amp; enemy wave spawning, bonus slot machine mechanics,
+          win-probability UI indicators, game balancing, and VFX/SFX polish.
+        </p>
+      </article>
+
+      <article class="info-card full">
+        <h2>Technologies &amp; Systems</h2>
+        <ul>
+          <li><strong>Unity &amp; URP:</strong> Mobile 3D/UI rendering, Cinemachine camera setup, and VFX/SFX polish.</li>
+          <li><strong>Progression &amp; Combat Systems:</strong> Unit upgrade logic, enemy wave &amp; boss spawners, and defeat/victory flow.</li>
+          <li><strong>Slot &amp; Bonus Mechanics:</strong> Forced spin handling, win probability display bars, and bonus slot machine logic.</li>
+          <li><strong>Architecture &amp; Configs:</strong> Modular service/controller structure, ScriptableObject balancing, and Unity Test Framework.</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="project-cta">
+      <a href="https://play.google.com/store/apps/details?id=com.IGORI.ChainMakerRPG" target="_blank" rel="noopener" class="btn btn-primary">View on Google Play</a>
+      <a href="index.html#projects" class="btn">Back to Portfolio</a>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
